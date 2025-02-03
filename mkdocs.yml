@@ -1,8 +1,8 @@
 site_name: Mohammed EL AMRANI - Portfolio
 docs_dir: docs         # Point to source Markdown
 site_dir: site
-site_url: https://lostfsoul.github.io/mkdcos-pf/
-repo_url: https://github.com/lostfsoul/mkdcos-pf/
+site_url: https://github.com/lostfsoul/moe-pf/
+repo_url: https://github.com/lostfsoul/moe-pf/
 edit_uri: edit/main/docs/
 
 theme:

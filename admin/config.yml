@@ -1,11 +1,11 @@
 backend:
   name: github
-  repo: lostfsoul/mkdcos-pf
-  branch: gh-pages         # Source branch
-  base_url: /mkdcos-pf/  # Match GitHub Pages URL
+  repo: lostfsoul/moe-pf
+  branch: main         # Source branch
+  base_url: /moe-pf/  # Match GitHub Pages URL
 
 media_folder: "docs/images/uploads"
-public_folder: "/mkdcos-pf/images/uploads"
+public_folder: "/moe-pf/images/uploads"
 
 collections:
   - name: "pages"
