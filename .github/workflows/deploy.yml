@@ -19,7 +19,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install mkdocs-material mkdocs-terminal pymdown-extensions mkdocs-material-extensions
+          pip install mkdocs-material mkdocs-exclude mkdocs-terminal pymdown-extensions mkdocs-material-extensions
 
       - name: Build site
         run: |
