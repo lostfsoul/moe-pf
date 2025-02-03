@@ -1,0 +1,18 @@
+backend:
+  name: github
+  repo: lostfsoul/mkdcos-pf
+  branch: gh-pages         # Source branch
+  base_url: /mkdcos-pf/  # Match GitHub Pages URL
+
+media_folder: "docs/images/uploads"
+public_folder: "/mkdcos-pf/images/uploads"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    folder: "docs"     # Source directory
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
