@@ -9,14 +9,28 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          python-version: 3.x
-      - run: pip install mkdocs-material
-      - run: mkdocs build --site-dir site
-      - uses: peaceiris/actions-gh-pages@v3
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          pip install mkdocs-material mkdocs-terminal pymdown-extensions mkdocs-material-extensions
+
+      - name: Build site
+        run: |
+          mkdocs build --strict --site-dir site
+          # Copy CMS admin files explicitly
+          cp -r docs/admin site/admin
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
           publish_branch: gh-pages
+          force_orphan: true
