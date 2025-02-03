@@ -38,9 +38,8 @@ nav:
     - Contact: contact.md
 
 plugins:
-  - search
-  - exclude  
-  - mkdocs-exclude:
+  - search 
+  - exclude:
       glob: [admin/.*]  # Prevent MkDocs from processing CMS files
 
 markdown_extensions:
