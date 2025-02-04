@@ -1,0 +1,9 @@
+/* Import required fonts */
+@import url('https://cdn.jsdelivr.net/npm/jetbrains-mono@1.0.6/css/jetbrains-mono.min.css');
+@import url('https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css');
+
+/* Apply fonts */
+:root {
+  --font-text: "JetBrains Mono", monospace;
+  --font-code: "Fira Code", monospace;
+}
