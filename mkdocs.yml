@@ -53,5 +53,7 @@ markdown_extensions:
   - pymdownx.tasklist
   - pymdownx.tabbed
   - pymdownx.snippets
+extra_css:
+  - css/fonts.css
 
   
