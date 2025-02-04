@@ -10,6 +10,7 @@ theme:
   palette: gruvbox_dark
   features:
     - footer.prev_next
+    - content.code.annotate
 
 
 extra:
@@ -45,7 +46,12 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.superfences
-  - pymdownx.highlight
+  - pymdownx.highlight:
+      pygments_style: monokai
+      linenums: true
+      anchor_linenums: true
+      line_spans: __LINE__
+      word_anchor: __WORD__
   - pymdownx.emoji
   - pymdownx.tasklist
   - pymdownx.tabbed
