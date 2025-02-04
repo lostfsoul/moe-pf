@@ -24,8 +24,7 @@ jobs:
       - name: Build site
         run: |
           mkdocs build --strict --site-dir site
-          # Copy CMS admin files explicitly
-          # cp -r docs/admin site/admin
+          cp -r docs/admin site/admin
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
