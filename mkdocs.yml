@@ -50,8 +50,6 @@ markdown_extensions:
       pygments_style: monokai
       linenums: true
       anchor_linenums: true
-      line_spans: __LINE__
-      word_anchor: __WORD__
   - pymdownx.emoji
   - pymdownx.tasklist
   - pymdownx.tabbed
