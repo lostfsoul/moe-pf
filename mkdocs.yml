@@ -7,7 +7,7 @@ edit_uri: edit/main/docs/
 
 theme:
   name: terminal
-  palette: default
+  palette: gruvbox_dark
   font:
     text: JetBrains Mono
     code: Fira Code
