@@ -3,6 +3,7 @@ backend:
   repo: lostfsoul/moe-pf
   branch: main
   site_url: https://lostfsoul.github.io/moe-pf/
+  base_url: /
 
 media_folder: "docs/images/uploads"
 public_folder: "/moe-pf/images/uploads"
