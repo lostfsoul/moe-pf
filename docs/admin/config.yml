@@ -2,7 +2,7 @@ backend:
   name: github
   repo: lostfsoul/moe-pf
   branch: main         # Source branch
-  base_url: https://lostfsoul.github.io
+  base_url: /moe-pf/
   site_domain: lostfsoul.github.io
 
 media_folder: "docs/images/uploads"
