@@ -8,11 +8,16 @@
   src: url('https://cdn.jsdelivr.net/gh/tonsky/FiraCode@5.2/distr/woff2/FiraCode-Regular.woff2') format('woff2');
 }
 
-/* Force fonts to override theme */
-body {
-  font-family: 'JetBrains Mono', monospace !important;
+:root {
+  --font-family: "JetBrains Mono", monospace;
+  --code-font-family: "Fira Code", monospace;
 }
 
-pre, code, kbd, .highlight {
-  font-family: 'Fira Code', monospace !important;
+body {
+  font-family: var(--font-family);
+}
+
+pre, code, kbd {
+  font-family: var(--code-font-family);
+  font-feature-settings: "liga", "calt"; /* Enable ligatures */
 }
