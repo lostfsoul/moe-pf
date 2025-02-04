@@ -1,9 +1,18 @@
-/* Import required fonts */
-@import url('https://cdn.jsdelivr.net/npm/jetbrains-mono@1.0.6/css/jetbrains-mono.min.css');
-@import url('https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css');
+/* Import fonts directly */
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Fira Code';
+  src: url('https://cdn.jsdelivr.net/gh/tonsky/FiraCode@5.2/distr/woff2/FiraCode-Regular.woff2') format('woff2');
+}
 
-/* Apply fonts */
-:root {
-  --font-text: "JetBrains Mono", monospace;
-  --font-code: "Fira Code", monospace;
+/* Force fonts to override theme */
+body {
+  font-family: 'JetBrains Mono', monospace !important;
+}
+
+pre, code, kbd, .highlight {
+  font-family: 'Fira Code', monospace !important;
 }
