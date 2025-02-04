@@ -48,7 +48,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.highlight:
       use_pygments: true            
-      pygments_style: github-dark
+      pygments_style: default
       noclasses: true   
   - pymdownx.emoji
   - pymdownx.tasklist
