@@ -8,9 +8,6 @@ edit_uri: edit/main/docs/
 theme:
   name: terminal
   palette: gruvbox_dark
-  font:
-    text: JetBrains Mono
-    code: Fira Code
   features:
     - footer.prev_next
 
