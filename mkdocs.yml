@@ -46,10 +46,7 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.superfences
-  - pymdownx.highlight:
-      use_pygments: true            
-      pygments_style: default
-      noclasses: true   
+  - pymdownx.highlight 
   - pymdownx.emoji
   - pymdownx.tasklist
   - pymdownx.tabbed
