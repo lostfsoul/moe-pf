@@ -1,7 +1,10 @@
 # Moe - Data Engineer & AI Solutions Architect
+![title](images/uploads/programming.gif)
 
 ```bash
 $ ./init_portfolio.sh --user moe --role "Data Engineer & AI Solutions Architect"
+```
+```text
 Initializing next-gen AI solutions portfolio...
 [✔] Systems ready for data-driven innovation
 ```
@@ -45,18 +48,21 @@ $ cat expertise/README.md
 ```bash
 $ ai_solutions --show-stack
 ```
-```text
+
 ### Machine Learning Operations (MLOps)
+```text
 [+] TensorFlow Serving      [status: active]
 [+] Kubeflow Pipelines      [status: active]
 [+] MLflow Tracking         [status: active]
-
+```
 ### Natural Language Processing
+```text
 [✔] BERT Models
 [✔] Transformer Architectures
 [✔] Custom NER Pipelines
-
+```
 ### Computer Vision
+```text
 [+] YOLOv7 Implementation
 [+] OpenCV Integration
 [+] Medical Imaging Specialization
@@ -89,20 +95,25 @@ $ system_arch --display
 ```bash
 $ case_studies --retrieve
 ```
-```text
+
 ### Retail Intelligence Suite
+```bash
 $ cd /solutions/retail
+```
+```text
 - Real-time inventory prediction (Accuracy: 94.7%)
 - Customer churn reduction: 32% YoY
 - Demand forecasting RMSE: 2.14
-
+```
 ### Healthcare Analytics Engine
+```bash
 $ cd /solutions/healthcare
 - Medical imaging diagnostic accuracy: 98.2%
 - Patient risk prediction AUC-ROC: 0.96
 - Drug interaction prediction model
-
+```
 ### FinTech Security Matrix
+```bash
 $ cd /solutions/fintech
 - Fraud detection precision: 99.1%
 - Transaction anomaly detection
@@ -116,11 +127,11 @@ $ system_connect --contact
 [Email] moe.elamrani@gmail.com
 [GitHub] https://github.com/lostfsoul
 [LinkedIn] https://linkedin.com/in/yourprofile
-
+```
+```bash
 $ deploy --collaboration --opportunities
-Ready for impactful data engineering challenges...
 ```
-```
+> Ready for impactful data engineering challenges...
 
 This version maintains your professional identity while presenting technical capabilities through a pseudo-terminal interface. It combines: 
 
