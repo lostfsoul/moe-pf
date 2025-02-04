@@ -39,8 +39,8 @@ nav:
 
 plugins:
   - search 
-  # - exclude:
-  #     glob: [admin/.*]  # Prevent MkDocs from processing CMS files
+  - exclude:
+      glob: [docs/admin/.*]  # Prevent MkDocs from processing CMS files
 
 markdown_extensions:
   - admonition
