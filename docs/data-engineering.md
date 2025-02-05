@@ -98,5 +98,7 @@ $ case_studies --show
 ▸ **Tech**: AWS Glue + S3  
 ▸ **Impact**: 40% cost reduction
 
-> "Automated our data validation with perfect Python implementation. Documentation and reliability exceeded expectations."  
-**Karim D.** - Logistics Platform Founder
+```text
+"Automated our data validation with perfect Python implementation. Documentation and reliability exceeded expectations."
+```
+> **Karim D.** - Logistics Platform Founder
