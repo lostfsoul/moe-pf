@@ -86,12 +86,16 @@ $ certifications --verified
 ▸ UiPath Automation Developer  
 
 ## Production Validation
+```text
+"Optimized our AWS data pipeline costs by 35% while improving throughput"
+```
+> **Fintech Client** - via Fiverr Delivery  
 
-> "Optimized our AWS data pipeline costs by 35% while improving throughput"  
-**Fintech Client** - via Fiverr Delivery  
-
-> "Implemented GDPR automation that reduced compliance errors by 90%"  
-**Healthcare Client** - Project Retrospective  
+```text
+"Implemented GDPR automation that reduced compliance errors by 90%"
+```
+> **Healthcare Client** - Project Retrospective  
 
 ```bash
-[View Quantified Results](/projects) | [Full Technical Breakdown](/ai-solutions) | [Contact](/contact)
+[View Quantified Results](/moe-pf/projects) | [Full Technical Breakdown](/moe-pf/ai-solutions) | [Contact](/moe-pf/contact)
+```
