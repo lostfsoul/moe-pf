@@ -97,4 +97,4 @@ $ certifications --verified
 > **Healthcare Client** - Project Retrospective  
 
 
-[View Quantified Results](/projects/) | [Full Technical Breakdown](/ai-solutions/) | [Contact](/contact/)
+[View Quantified Results](projects.md) | [Full Technical Breakdown](ai-solutions.md) | [Contact](contact.md)
