@@ -57,5 +57,5 @@ $ project_stats --verified
 - **Data Processed**: 100+ TB  
 - **Client ROI Achieved**: $2M+  
 
-```bash
-[View Detailed Case Studies](/ai-solutions) | [Technical Specifications](/expertise) | [Contact](/contact)
+
+[View Detailed Case Studies](/ai-solutions/) | [Technical Specifications](/expertise/) | [Contact](/contact/)
