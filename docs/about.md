@@ -1,103 +1,57 @@
 # About Me
 
-```bash
-$ whoami
-```
-```text
-Moe - Data Engineer & AI Solutions Architect
-Experience: 3+ years
-Specialization: Intelligent Data Systems
-Status: Building scalable solutions at [Company Name]
+Hi, I'm Mohammed EL AMRANI - Full-Stack Data Engineer specializing in AI-driven solutions with 4+ years of experience building production-grade data systems. I bridge the gap between complex data infrastructure and business value through:
+
+```python
+["Generative AI", "LLM Fine-tuning", "Cloud-native Data Pipelines", "RAG Systems"]
 ```
 
 ## Professional Journey
 
-```bash
-$ career_timeline --display
-```
+▸ **Data Engineer @ FIVERR (Freelance)** | 2020-Present  
+`FastAPI` `LangChain` `AWS` `Docker`
+- Developed LLM solutions using GPT-4/GPT-3.5 with vector databases (Pinecone, Weaviate)
+- Built AI chatbots integrating Rasa + ChatGPT for custom client interactions
+- Containerized data applications using Docker for simplified deployment
 
-### Current Role
-```bash
-$ cd /roles/current
-```
-```text
-- Position: Data Engineer
-- Focus: Real-time Data Pipelines & ML Infrastructure
-- Stack: Kafka, Spark, TensorFlow, Kubernetes
-```
-### Education
-```bash
-$ cd /education
-```
-```text
-- Master's in Data Science [University Name]
-- Thesis: "Scalable AI Pipelines for Enterprise Applications"
-```
-### Certifications
-```bash
-$ ls certifications/
-```
-```text
-- AWS Certified Solutions Architect - Associate
-- Google Professional Data Engineer
-- Microsoft Azure AI Engineer Associate
-```
+▸ **Data Analyst @ RADEEF** | 2022-Present  
+`PySpark` `Streamlit` `ETL`
+- Aggregated financial metrics from 15+ data sources for operational analysis
+- Created real-time dashboards for regulatory compliance monitoring
+- Automated data validation workflows reducing manual effort by 40%
 
-## What Drives Me
+## Core Expertise
 
 ```bash
-$ cat motivation.txt
-```
-```text
-1. Building robust data architectures for modern AI
-2. Designing end-to-end ML pipelines with business impact
-3. Scaling cloud solutions for organizational growth
-4. Mentoring and knowledge-sharing in the tech community
+# Language Stack
+Python | SQL | Bash 
+
+# Data Engineering
+FastAPI/Flask | ETL Pipelines | AWS Cloud | Docker 
+
+# AI/ML
+LLM Fine-tuning | RAG Systems | NLP | Generative AI
 ```
 
-## Beyond Work
-```bash
-$ hobbies --list
-```
-### Open Source Contributions
-```bash
-$ cd /open-source
-```
-```text
-- Contributor to Apache Airflow
-- Maintainer of Data Engineering Tools
-```
-### Writing & Thought Leadership
-```bash
-$ cd /blog
-```
-```text
-- Articles on AI trends and best practices
-- Technical tutorials for data engineers
-```
-### Tech Exploration
-```bash
-$ cd /experiments
-```
-```text
-- Experimenting with new data tools
-- Building personal AI projects
-```
+## Education & Certification
 
-```bash
-$ system_connect --social
-```
-```text
-[GitHub] https://github.com/lostfsoul
-[LinkedIn] https://linkedin.com/in/yourprofile
-[Email] moe.elamrani@gmail.com
-```
+▸ **Ecole Supérieure de Management**  
+Licence en Ingénierie Logicielle | 2023-2024
 
-```bash
-$ navigate --portfolio
-```
-```text
-[1] Explore My Work (/projects)
-[2] View My Expertise (/expertise)
-[3] Let's Connect (/contact)
-```
+▸ **Google Professional Certificate**  
+Data Analytics | 2022
+
+▸ **IBM Developer Certification**  
+AI Applications with Python | 2021
+
+## Client Impact
+
+> "Mohammed developed an exceptional FastAPI integration with GPT-4 for our risk analysis system. His NLP expertise was invaluable."  
+**Alexandre R.** - Fintech CEO  
+`Project: AI-powered Financial Risk Chatbot`
+
+> "Automated our GDPR compliance workflow with perfect Python/Flask implementation. Reliable and documentation-perfect."  
+**Sophie L.** - Medical Data Director  
+`Project: Automated Regulatory Workflows`
+
+[Explore Projects](/projects) | [Technical Expertise](/expertise) | [Contact](/contact)
