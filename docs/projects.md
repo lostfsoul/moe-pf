@@ -58,4 +58,4 @@ $ project_stats --verified
 - **Client ROI Achieved**: $2M+  
 
 
-[View Detailed Case Studies]({{ base_url }}ai-solutions/) | [Technical Specifications]({{ base_url }}expertise/) | [Contact]({{ base_url }}contact/)
+[View Detailed Case Studies](ai-solutions.md) | [Technical Specifications](expertise.md) | [Contact](contact.md)
