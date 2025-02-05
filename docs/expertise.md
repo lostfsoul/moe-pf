@@ -97,5 +97,5 @@ $ certifications --verified
 > **Healthcare Client** - Project Retrospective  
 
 ```bash
-[View Quantified Results](/moe-pf/projects) | [Full Technical Breakdown](/moe-pf/ai-solutions) | [Contact](/moe-pf/contact)
+[View Quantified Results](docs/projects) | [Full Technical Breakdown](docs/ai-solutions) | [Contact](docs/contact)
 ```
