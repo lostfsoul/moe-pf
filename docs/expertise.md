@@ -96,6 +96,5 @@ $ certifications --verified
 ```
 > **Healthcare Client** - Project Retrospective  
 
-```bash
+
 [View Quantified Results](/projects/) | [Full Technical Breakdown](/ai-solutions/) | [Contact](/contact/)
-```
