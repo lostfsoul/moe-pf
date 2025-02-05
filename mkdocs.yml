@@ -12,6 +12,8 @@ theme:
   features:
     - footer.prev_next
     - content.code.annotate
+    - content.tabs.link
+
 
 
 extra:
@@ -38,6 +40,7 @@ nav:
 
 plugins:
   - search 
+  - redirects
   # - exclude:
   #     glob: [admin/.*]  # Prevent MkDocs from processing CMS files
 
