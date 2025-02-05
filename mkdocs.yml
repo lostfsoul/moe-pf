@@ -40,7 +40,6 @@ nav:
 
 plugins:
   - search 
-  - redirects
   # - exclude:
   #     glob: [admin/.*]  # Prevent MkDocs from processing CMS files
 
