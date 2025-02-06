@@ -27,6 +27,7 @@ $ cat fintech_risk/README.md
 $ cat regulatory_workflow/README.md
 ```
 - **Technologies**: `Flask` `PostgreSQL` `AWS Lambda`
+
 - **Features**:
   ▸ GDPR compliance automation  
   ▸ Document validation pipeline  
