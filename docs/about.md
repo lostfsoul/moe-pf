@@ -35,8 +35,8 @@ LLM Fine-tuning | RAG Systems | NLP | Generative AI
 
 ## Education & Certification
 
-▸ **Ecole Supérieure de Management**  
-Licence en Ingénierie Logicielle | 2023-2024
+▸ **Higher school of business management and IT**  
+Bachelor in Software Engineering | 2023-2024
 
 ▸ **Google Professional Certificate**  
 Data Analytics | 2022
@@ -45,12 +45,14 @@ Data Analytics | 2022
 AI Applications with Python | 2021
 
 ## Client Impact
-
-> "Mohammed developed an exceptional FastAPI integration with GPT-4 for our risk analysis system. His NLP expertise was invaluable."  
+```text
+"Mohammed developed an exceptional FastAPI integration with GPT-4 for our risk analysis system. His NLP expertise was invaluable."
+```
 **Alexandre R.** - Fintech CEO  
 `Project: AI-powered Financial Risk Chatbot`
-
-> "Automated our GDPR compliance workflow with perfect Python/Flask implementation. Reliable and documentation-perfect."  
+```text
+"Automated our GDPR compliance workflow with perfect Python/Flask implementation. Reliable and documentation-perfect."
+```
 **Sophie L.** - Medical Data Director  
 `Project: Automated Regulatory Workflows`
 
