@@ -7,9 +7,7 @@ title: Home
 
 ```bash
 $ ./init_portfolio.sh --user moe --role "Data Engineer & AI Solutions Architect"
-```
 
-```text
 Initializing next-gen AI solutions portfolio...
 [✔] Systems ready for data-driven innovation
 ```
