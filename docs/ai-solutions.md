@@ -4,7 +4,8 @@
 $ ai_solutions --list
 ```
 
-## Core AI Capabilities
+Core AI Capabilities
+---
 
 ### Machine Learning Solutions
 ```bash
