@@ -12,13 +12,16 @@ $ cat fintech_risk/README.md
 ```
 - **Technologies**: `FastAPI` `GPT-4` `LangChain` `Pinecone`
 - **Features**:
+```text
   ▸ Real-time risk scoring using LLMs  
   ▸ RAG architecture with legal docs  
   ▸ Multi-tenant security model
+```
 - **Metrics**:
+```text
   ▶ 30% faster risk evaluation  
   ▶ 90% accuracy on historical data
-
+```
 > "Transformed our compliance workflow with AI-powered insights"  
 **Fintech Client**
 
@@ -29,13 +32,16 @@ $ cat regulatory_workflow/README.md
 - **Technologies**: `Flask` `PostgreSQL` `AWS Lambda`
 
 - **Features**:
+```text
   ▸ GDPR compliance automation  
   ▸ Document validation pipeline  
   ▸ Audit trail generation
+```
 - **Metrics**:
+```text
   ▶ 40% manual effort reduction  
   ▶ 100% audit compliance
-
+```
 ### 3. Logistics Data Centralization
 ```bash
 $ cat logistics_data/README.md
