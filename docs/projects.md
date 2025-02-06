@@ -40,10 +40,12 @@ $ cat regulatory_workflow/README.md
 $ cat logistics_data/README.md
 ```
 - **Technologies**: `Streamlit` `MySQL` `AWS S3`
+
 - **Features**:
   ▸ Unified 15+ data sources  
   ▸ Real-time dashboarding  
   ▸ ETL pipeline optimization
+  
 - **Metrics**:
   ▶ 60% faster reporting  
   ▶ 50% storage cost reduction
