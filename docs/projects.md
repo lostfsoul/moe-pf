@@ -43,14 +43,16 @@ $ cat logistics_data/README.md
 - **Technologies**: `Streamlit` `MySQL` `AWS S3`
 
 - **Features**:
+```text
   ▸ Unified 15+ data sources  
   ▸ Real-time dashboarding  
   ▸ ETL pipeline optimization
-  
+```
 - **Metrics**:
+```text
   ▶ 60% faster reporting  
   ▶ 50% storage cost reduction
-
+```
 ## Technical Impact Metrics
 ```bash
 $ project_stats --verified
