@@ -1,0 +1,23 @@
+/* Import fonts directly */
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Fira Code';
+  src: url('https://cdn.jsdelivr.net/gh/tonsky/FiraCode@5.2/distr/woff2/FiraCode-Regular.woff2') format('woff2');
+}
+
+:root {
+  --font-family: "JetBrains Mono", monospace;
+  --code-font-family: "Fira Code", monospace;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+pre, code, kbd {
+  font-family: var(--code-font-family);
+  font-feature-settings: "liga", "calt"; /* Enable ligatures */
+}
