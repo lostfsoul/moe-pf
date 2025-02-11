@@ -140,11 +140,10 @@ $ cd /solutions/fintech
 $ system_connect --contact
 ```
 
-```text
-[Email] moe.elamrani@gmail.com
-[GitHub] https://github.com/lostfsoul
-[LinkedIn] [https://linkedin.com/in/yourprofile](https://ma.linkedin.com/in/moe-el-amrani)
-```
+- [Email](moe.elamrani@gmail.com)
+- [GitHub](https://github.com/lostfsoul)
+- [LinkedIn](https://ma.linkedin.com/in/moe-el-amrani)
+
 
 ```bash
 $ deploy --collaboration --opportunities
