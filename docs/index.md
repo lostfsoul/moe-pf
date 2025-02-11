@@ -140,7 +140,7 @@ $ cd /solutions/fintech
 $ system_connect --contact
 ```
 
-- [Email](moe.elamrani@gmail.com)
+- [Email](mailto:moe.elamrani@gmail.com)
 - [GitHub](https://github.com/lostfsoul)
 - [LinkedIn](https://ma.linkedin.com/in/moe-el-amrani)
 
