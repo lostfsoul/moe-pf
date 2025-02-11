@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="generator" content="mkdocs-1.6.1, mkdocs-terminal-4.7.0">
+     
+     
+    
+    <link rel="canonical" href="https://lostfsoul.github.io/moe-pf/data-engineering/"><link rel="icon" type="image/png" sizes="192x192" href="../img/android-chrome-192x192.png" />
+<link rel="icon" type="image/png" sizes="512x512" href="../img/android-chrome-512x512.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="../img/apple-touch-icon.png" />
+<link rel="shortcut icon" type="image/png" sizes="48x48" href="../img/favicon.ico" />
+<link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png" />
+
+
+    
+ 
+<title>Data Engineering - Mohammed EL AMRANI - Portfolio</title>
+
+
+<link href="../css/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+<link href="../css/fontawesome/css/solid.min.css" rel="stylesheet">
+<link href="../css/normalize.css" rel="stylesheet">
+<link href="../css/terminal.css" rel="stylesheet">
+<link href="../css/theme.css" rel="stylesheet">
+<link href="../css/theme.tile_grid.css" rel="stylesheet">
+<link href="../css/theme.footer.css" rel="stylesheet">
+<!-- gruvbox_dark color palette -->
+<link href="../css/palettes/gruvbox_dark.css" rel="stylesheet">
+
+<!-- page layout -->
+<style>
+/* initially set page layout to a one column grid */
+.terminal-mkdocs-main-grid {
+    display: grid;
+    grid-column-gap: 1.4em;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+/*  
+*   when side navigation is not hidden, use a two column grid.  
+*   if the screen is too narrow, fall back to the initial one column grid layout.
+*   in this case the main content will be placed under the navigation panel. 
+*/
+@media only screen and (min-width: 70em) {
+    .terminal-mkdocs-main-grid {
+        grid-template-columns: 4fr 9fr;
+    }
+}</style>
+
+
+
+    
+    <link href="../css/fonts.css" rel="stylesheet"> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.0/styles/a11y-dark.min.css" rel="stylesheet">  
+    
+    
+
+    
+    <!-- search css support -->
+<link href="../css/search/bootstrap-modal.css" rel="stylesheet">
+<!-- search scripts -->
+<script>
+    var base_url = "..",
+    shortcuts = "{}";
+</script>
+<script src="../js/jquery/jquery-1.10.1.min.js" defer></script>
+<script src="../js/bootstrap/bootstrap.min.js" defer></script>
+<script src="../js/mkdocs/base.js" defer></script>
+    
+    
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.0/highlight.min.js"></script>
+    
+    <script src="https://unpkg.com/highlightjs-cobol/dist/cobol.min.js"></script>
+    
+    <script src="../add_hljs_highlight.js"></script>
+    
+    <script src="../search/main.js"></script>
+    
+
+    
+</head>
+
+<body class="terminal"><div class="container">
+    <div class="terminal-nav">
+        <header class="terminal-logo">
+            <div id="mkdocs-terminal-site-name" class="logo terminal-prompt"><a href="https://lostfsoul.github.io/moe-pf/" class="no-style">Mohammed EL AMRANI - Portfolio</a></div>
+        </header>
+        
+        <nav class="terminal-menu">
+            
+            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href=".." class="menu-item " property="item" typeof="WebPage">
+                        <span property="name">Home</span>
+                    </a>
+                    <meta property="position" content="0">
+                </li>
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href="../about/" class="menu-item " property="item" typeof="WebPage">
+                        <span property="name">About Me</span>
+                    </a>
+                    <meta property="position" content="1">
+                </li>
+                
+                
+                
+                    
+                    
+
+
+<li property="itemListElement" typeof="ListItem">
+    <a href="#" class="menu-item" data-toggle="modal" data-target="#mkdocs_search_modal" property="item" typeof="SearchAction">
+        <i aria-hidden="true" class="fa fa-search"></i> <span property="name">Search</span>
+    </a>
+    <meta property="position" content="2">
+</li>
+                    
+            </ul>
+            
+        </nav>
+    </div>
+</div>
+        
+    <div class="container">
+        <div class="terminal-mkdocs-main-grid"><aside id="terminal-mkdocs-side-panel"><nav>
+  
+    <ul class="terminal-mkdocs-side-nav-items">
+        
+          
+
+
+
+<li class="terminal-mkdocs-side-nav-li">
+    
+    
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="..">Home</a>
+        
+    
+    
+    
+  </li>
+        
+          
+
+
+
+<li class="terminal-mkdocs-side-nav-li">
+    
+    
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../about/">About Me</a>
+        
+    
+    
+    
+  </li>
+        
+          
+
+
+
+<li class="terminal-mkdocs-side-nav-li">
+    
+    
+        
+        
+
+        
+            
+    
+        
+        <span class="
+        
+    
+
+    terminal-mkdocs-side-nav-item--active terminal-mkdocs-side-nav-section-no-index">Portfolio</span>
+    
+    
+        
+      
+        
+            <ul class="terminal-mkdocs-side-nav-li-ul">
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../expertise/">Expertise</a>
+        
+    
+    </li>
+            
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../ai-solutions/">AI Solutions</a>
+        
+    
+    </li>
+            
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        <span class="
+
+    terminal-mkdocs-side-nav-item--active">Data Engineering</span>
+    
+    </li>
+            
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../projects/">Projects</a>
+        
+    
+    </li>
+            
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../blog/">Blog</a>
+        
+    
+    </li>
+            
+        
+            
+            
+
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="
+
+    terminal-mkdocs-side-nav-item" href="../contact/">Contact</a>
+        
+    
+    </li>
+            
+            
+    </ul>
+        
+    
+  </li>
+        
+    </ul>
+  
+</nav><hr>
+<nav>
+    <ul>
+        <li><a href="#data-engineering-expertise">Data Engineering Expertise</a></li>
+        <li><a href="#core-data-engineering-services">Core Data Engineering Services</a></li><li><a href="#technology-stack">Technology Stack</a></li><li><a href="#case-studies">Case Studies</a></li>
+    </ul>
+</nav>
+</aside>
+            <main id="terminal-mkdocs-main-content">
+<section id="mkdocs-terminal-content">
+    <h1 id="data-engineering-expertise">Data Engineering Expertise<a class="headerlink" href="#data-engineering-expertise" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>data_engineering<span class="w"> </span>--list
+</code></pre></div>
+<h2 id="core-data-engineering-services">Core Data Engineering Services<a class="headerlink" href="#core-data-engineering-services" title="Permanent link">&para;</a></h2>
+<h3 id="data-pipeline-development">Data Pipeline Development<a class="headerlink" href="#data-pipeline-development" title="Permanent link">&para;</a></h3>
+<p><div class="highlight"><pre><span></span><code>$<span class="w"> </span>cat<span class="w"> </span>pipelines/README.md
+</code></pre></div>
+- ETL/ELT Pipeline Design
+- Real-time Data Processing
+- Batch Processing Systems
+- Data Quality Monitoring
+- Data Governance Implementation
+- <strong>Python Automation</strong><br />
+  ▸ Automated data validation workflows<br />
+  ▸ 40% reduction in manual effort<br />
+  ▸ Integrated with FastAPI/Flask</p>
+<h3 id="big-data-solutions">Big Data Solutions<a class="headerlink" href="#big-data-solutions" title="Permanent link">&para;</a></h3>
+<p><div class="highlight"><pre><span></span><code>$<span class="w"> </span>cat<span class="w"> </span>big_data/README.md
+</code></pre></div>
+- Hadoop Ecosystem Implementation
+- Spark Streaming Applications
+- Data Lake Architecture
+- Data Warehouse Solutions
+- Distributed Computing Systems</p>
+<h3 id="cloud-data-platforms">Cloud Data Platforms<a class="headerlink" href="#cloud-data-platforms" title="Permanent link">&para;</a></h3>
+<p><div class="highlight"><pre><span></span><code>$<span class="w"> </span>cat<span class="w"> </span>cloud/README.md
+</code></pre></div>
+- AWS Data Solutions (Redshift, Glue, EMR)
+- Google Cloud Data Services (BigQuery, Dataflow)
+- Azure Data Services (Synapse, Data Factory)
+- Snowflake Implementation
+- Databricks Platform
+- <strong>Production Deployments</strong><br />
+  ▸ Dockerized data applications<br />
+  ▸ AWS EC2/EBS optimization<br />
+  ▸ CI/CD pipelines with Jenkins</p>
+<h2 id="technology-stack">Technology Stack<a class="headerlink" href="#technology-stack" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>tech_stack<span class="w"> </span>--list
+</code></pre></div>
+<h3 id="data-processing">Data Processing<a class="headerlink" href="#data-processing" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Apache Spark</li>
+<li>Apache Flink</li>
+<li>Apache Kafka</li>
+<li>Apache Airflow</li>
+<li>Prefect</li>
+<li><strong>Python Frameworks</strong><br />
+  ▸ FastAPI/Flask APIs<br />
+  ▸ Pandas/Numpy for data manipulation</li>
+</ul>
+<h3 id="storage-solutions">Storage Solutions<a class="headerlink" href="#storage-solutions" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Amazon S3</li>
+<li>Google Cloud Storage</li>
+<li>Azure Data Lake</li>
+<li>HDFS</li>
+<li>Snowflake</li>
+</ul>
+<h3 id="orchestration">Orchestration<a class="headerlink" href="#orchestration" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Kubernetes</li>
+<li>Docker</li>
+<li>Terraform</li>
+<li>Ansible</li>
+<li>Jenkins</li>
+</ul>
+<h2 id="case-studies">Case Studies<a class="headerlink" href="#case-studies" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>$<span class="w"> </span>case_studies<span class="w"> </span>--show
+</code></pre></div>
+<h3 id="logistics-data-centralization">Logistics Data Centralization<a class="headerlink" href="#logistics-data-centralization" title="Permanent link">&para;</a></h3>
+<p>▸ <strong>Client</strong>: Logistics Platform<br />
+▸ <strong>Solution</strong>: Streamlit dashboard + ETL pipelines<br />
+▸ <strong>Tech</strong>: Python + MySQL + AWS S3<br />
+▸ <strong>Impact</strong>: Unified 15+ data sources</p>
+<h3 id="financial-data-compliance">Financial Data Compliance<a class="headerlink" href="#financial-data-compliance" title="Permanent link">&para;</a></h3>
+<p>▸ <strong>Client</strong>: Fintech Startup<br />
+▸ <strong>Solution</strong>: GDPR workflow automation<br />
+▸ <strong>Tech</strong>: Flask + PostgreSQL<br />
+▸ <strong>Impact</strong>: 50% faster compliance checks</p>
+<h3 id="cloud-migration">Cloud Migration<a class="headerlink" href="#cloud-migration" title="Permanent link">&para;</a></h3>
+<p>▸ <strong>Client</strong>: Medical Data Company<br />
+▸ <strong>Solution</strong>: 100TB+ data migration<br />
+▸ <strong>Tech</strong>: AWS Glue + S3<br />
+▸ <strong>Impact</strong>: 40% cost reduction</p>
+<div class="highlight"><pre><span></span><code>&quot;Automated our data validation with perfect Python implementation. Documentation and reliability exceeded expectations.&quot;
+</code></pre></div>
+<blockquote>
+<p><strong>Karim D.</strong> - Logistics Platform Founder</p>
+</blockquote>
+</section>
+
+            </main>
+        </div>
+        <hr><footer>
+    <div class="terminal-mkdocs-footer-grid">
+        <div id="terminal-mkdocs-footer-copyright-info">
+             Site built with <a href="http://www.mkdocs.org">MkDocs</a> and <a href="https://github.com/ntno/mkdocs-terminal">Terminal for MkDocs</a>.
+        </div>
+        <div id="terminal-mkdocs-footer-prev-next">
+            <nav class="btn-group">
+                <a href="../ai-solutions/" title="AI Solutions">Previous</a>
+                |
+                <a href="../projects/" title="Projects">Next</a>
+            </nav>
+        </div>
+    </div>
+</footer>
+    </div>
+
+    
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="alertdialog" aria-modal="true" aria-labelledby="searchModalLabel">
+    <div class="modal-dialog modal-lg" role="search">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="searchModalLabel">Search</h5>
+                <button type="button" class="close btn btn-default btn-ghost" data-dismiss="modal"><span aria-hidden="true">x</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p id="searchInputLabel">Type to start searching</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" aria-labelledby="searchInputLabel" placeholder="" id="mkdocs-search-query" title="Please enter search terms here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No document matches found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    
+    
+</body>
+
+</html>
