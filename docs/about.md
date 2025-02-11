@@ -56,4 +56,4 @@ AI Applications with Python | 2021
 **Sophie L.** - Medical Data Director  
 `Project: Automated Regulatory Workflows`
 
-[Explore Projects](/projects) | [Technical Expertise](/expertise) | [Contact](/contact)
+[Explore Projects](projects.md) | [Technical Expertise](expertise.md) | [Contact](contact.md)
