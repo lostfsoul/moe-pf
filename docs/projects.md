@@ -22,8 +22,10 @@ $ cat fintech_risk/README.md
   ▶ 30% faster risk evaluation  
   ▶ 90% accuracy on historical data
 ```
-> "Transformed our compliance workflow with AI-powered insights"  
-**Fintech Client**
+```text
+"Transformed our compliance workflow with AI-powered insights"
+```
+> **Fintech Client**
 
 ### 2. Automated Regulatory Workflow System
 ```bash
