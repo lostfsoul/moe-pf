@@ -8,7 +8,7 @@ edit_uri: edit/main/docs/
 
 theme:
   name: terminal
-  palette: default
+  palette: gruvbox_dark
   features:
     - footer.prev_next
     - content.code.annotate
